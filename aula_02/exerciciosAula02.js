@@ -20,7 +20,7 @@ console.log(`Seu novo salário é: ${new Intl.NumberFormat("pt-BR", {
   let media = (nota1 + nota2 + nota3 + nota4) / 4
   console.log(`Sua média é: ${media.toFixed(1)}`)
 
-*/
+
 
 //Exercio 3
 const leia = require("readline-sync");
@@ -32,7 +32,14 @@ let salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - desco
 console.log(`Seu salário liquido é  ${new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL"
-  }).format(salarioLiquido)}`)
+  }).format(salarioLiquido)}`)*/
 
+//Exercicio 04
 
-
+const leia = require("readline-sync");
+let n1 = leia.questionFloat('Digite valor para n1: ')
+let n2 = leia.questionFloat("Digite valor para n2: ");
+let n3 = leia.questionFloat("Digite valor para n3: ");
+let n4 = leia.questionFloat("Digite valor para n4: ");
+let diferenca = (n1 * n2) - (n3 * n4)
+console.log(`A diferença entre os valores é: ${diferenca}`)
