@@ -26,7 +26,7 @@ switch (codigo) {
     resultado = n1 / n2;
     break;
   default:
-    console.log("Cargo invalida");
+    console.log("Operacao invalida");
     process.exit(0);
 }
  console.log(`${n1} ${operador} ${n2} = ${resultado}`)
