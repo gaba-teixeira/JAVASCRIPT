@@ -23,14 +23,14 @@ while (continua === "S") {
   if (pessoaDesenvolvedora === 1) {
     devBackend++;
   } else if (
-    identidadeDeGenero === 1 ||
-    (identidadeDeGenero === 4 && pessoaDesenvolvedora === 2)
-  ) {
+    (identidadeDeGenero === 1 ||
+    identidadeDeGenero === 4 )&& pessoaDesenvolvedora === 2)
+   {
     mulheresFrontend++;
   } else if (
-    identidadeDeGenero === 2 ||
-    (identidadeDeGenero === 5 && idade > 40 && pessoaDesenvolvedora === 3)
-  ) {
+   (identidadeDeGenero === 2 ||
+    identidadeDeGenero === 5) && idade > 40 && pessoaDesenvolvedora === 3)
+   {
     homensMaiores40++;
   } else if (
     identidadeDeGenero === 3 &&
